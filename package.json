@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@koa/cors": "^2.2.1",
     "cheerio": "^1.0.0-rc.2",
     "koa": "^2.5.0",
     "koa-router": "^7.4.0",
