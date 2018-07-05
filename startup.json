@@ -1,0 +1,7 @@
+{
+  "apps": [{
+    "name": "USC-ClassTabel-API",
+    "script": "./server/index.js",
+    "watch": true
+  }]
+}

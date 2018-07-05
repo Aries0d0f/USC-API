@@ -1,4 +1,4 @@
-const classTable     = require('./classTabel')
+const classTable     = require('./classTable')
 
 module.exports = {
   classTable

@@ -1,8 +1,8 @@
-const classTabel            = new (require('koa-router'))()
+const classTable            = new (require('koa-router'))()
 const uscAgent              = require('../modules/uscAgent')
 const { classData }         = require('../modules/util')
 
-classTabel
+classTable
   .get('/:id/:year/:sem', async ctx => {
     const res = await uscAgent({
       ...ctx.params,
@@ -15,4 +15,4 @@ classTabel
     }).splice(1)
   })
 
-module.exports = classTabel
+module.exports = classTable
